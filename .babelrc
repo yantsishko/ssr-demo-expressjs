@@ -1,0 +1,26 @@
+{
+  "plugins": [
+    "babel-plugin-transform-decorators-legacy",
+    "babel-plugin-transform-decorators",
+    "styled-components",
+    "syntax-dynamic-import"
+  ],
+  "presets": [
+    [
+      "env",
+      {
+        "modules": false
+      }
+    ],
+    "react",
+    "stage-0"
+  ],
+  "env": {
+    "production": {
+      "plugins": [
+        "transform-react-remove-prop-types",
+        "transform-react-constant-elements"
+      ]
+    }
+  }
+}
