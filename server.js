@@ -48,7 +48,6 @@ app.get('*', (req, res) => {
           return res.send(302)
         }
 
-        const helmet = Helmet.renderStatic();
         const css = new Set(); // CSS for all rendered React components
         const insertCss = (...styles) => styles.forEach(style => css.add(style._getCss()));
 
@@ -64,6 +63,8 @@ app.get('*', (req, res) => {
             </Provider>
           </StyleContext.Provider>
         );
+
+        const helmet = Helmet.renderStatic();
 
         fs.readFile(indexFile, 'utf8', (err, data) => {
           if (err) {
