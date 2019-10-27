@@ -1,10 +1,10 @@
 {
-  "name": "SSRBoilerplate",
+  "name": "SSRDemo",
   "version": "1.0.0",
-  "description": "Server Side Rendering Starter Kit",
+  "description": "Server Side Rendering Demo",
   "repository": {
     "type": "git",
-    "url": "https://github.com/yantsishko/ssr-starter-kit.git"
+    "url": "https://github.com/yantsishko/ssr-demo-expressjs"
   },
   "engines": {
     "npm": ">=3",
