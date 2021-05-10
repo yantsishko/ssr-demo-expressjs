@@ -45,7 +45,7 @@
     "less": "^2.7.3",
     "less-loader": "^4.0.5",
     "localStorage": "^1.0.4",
-    "lodash": "^4.17.19",
+    "lodash": "^4.17.21",
     "mini-create-react-context": "^0.3.2",
     "nodemon": "^1.19.1",
     "prop-types": "15.5.10",
