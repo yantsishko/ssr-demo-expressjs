@@ -36,7 +36,7 @@
     "copy-webpack-plugin": "^4.2.3",
     "cross-env": "5.0.0",
     "eventsource-polyfill": "^0.9.6",
-    "express": "4.15.3",
+    "express": "4.17.3",
     "global": "^4.4.0",
     "history": "4.6.3",
     "html-webpack-plugin": "2.29.0",
